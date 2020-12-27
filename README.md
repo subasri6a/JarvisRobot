@@ -1,7 +1,7 @@
 ![Jarvis](https://telegra.ph/file/62202bce1ce295b6f13bc.png)
 
 # Jarvis Security bot
-![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fsppidy%2FJarvisRobot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fsppidy%2FJarvisRobot)
 
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green) [![Join Support!](https://img.shields.io/badge/Support%20Chat-JarvisSupport-green)](https://t.me/JarvisSupportOT)
