@@ -44,7 +44,8 @@ from jarvis.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a Tech themed group management bot with some fun extras 
-You can find the list of available commands with /help.
+You can find the list of available commands with /help and you can use me for managing
+Groups visit My channel of [news](t.me/vickyorflowerbotnews
 """
 
 HELP_STRINGS = """
