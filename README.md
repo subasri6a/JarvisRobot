@@ -1,19 +1,19 @@
 
 
-# Jarvis Security bot
+# flower bot
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fsppidy%2FJarvisRobot)
 
 
-![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green) [![Join Support!](https://img.shields.io/badge/Support%20Chat-JarvisSupport-green)](https://t.me/JarvisSupportOT)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green) [![Join Support!](https://img.shields.io/badge/Support%20Chat-JarvisSupport-green)](https://t.me/Vickyorflowerbotsupport)
 
 A modular telegram Python bot running on python3 with an sqlalchemy database.
-Concept taken from [Saitama Robot](https://github.com/AnimeKaizoku/SaitamaRobot)
+Concept taken from [vicky](https://github.com/subasri6a/vicky)
 
-Originally a marie fork - Jarvis has evolved further and was built to be more useful to Automate Group
+Originally a marie fork - flowerbot has evolved further and was built to be more useful to Automate Group
 
-Can be found on telegram as [Jarvis](https://t.me/jarvisofficialsecuritybot).
+Can be found on telegram as [flower bot](https://t.me/react_flowerbot).
 
-The Support group can be reached out to at [Jarvis Support](https://t.me/JarvisSupportOT), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [flower bot support ](https://t.me/Vickyorflowerbotsupport), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 **Note** :- This Code Should Not Be Private According to License If U Want To Make Your Own Bot Fork and Create a File With Name Of config.py Further Instructions Are Given Below 
 
@@ -28,7 +28,7 @@ The Support group can be reached out to at [Jarvis Support](https://t.me/JarvisS
   
  
  
- Note: This instruction set is just a copy paste from Marie, note that [Jarvis Support](https://t.me/JarvisSupportOT) aims to handle support for @Jarvisbot and now how to setup your own fork, if you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to setup the bot instance in the support chat, it aims to help our own instance of the bot. 
+  note that [flowerbot Support](https://t.me/Vickyorflowerbotsupport) aims to handle support for @react_flowerbot and now how to setup your own fork, if you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to setup the bot instance in the support chat, it aims to help our own instance of the bot. 
   
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions!
@@ -53,7 +53,7 @@ from jarvis.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # your telegram ID
-    OWNER_USERNAME = "SonOfLars"  # your telegram username
+    OWNER_USERNAME = "subasri6a"  # your telegram username
     API_KEY = "your bot api key"  # your api key, as provided by the @botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
@@ -163,7 +163,7 @@ All that is needed is that your .py file be in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from jarvis import dispatcher`.
+`from flower bot import dispatcher`.
 
 You can then add commands using the usual
 
@@ -184,7 +184,7 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've setup your database and your configuration is complete, simply run the bat file(if on windows) or run (linux):
 
-`python3 -m jarvis`
+`python3 -m flowerbot`
 
 You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
